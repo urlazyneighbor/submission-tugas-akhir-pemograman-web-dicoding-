@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        margin: 0;
+        font-family: Arial;
+    }
+    
+    .header {
+        text-align: center;
+        padding: 32px;
+    }
+    
+    .row {
+        display: -ms-flexbox;
+        /* IE10 */
+        display: flex;
+        -ms-flex-wrap: wrap;
+        /* IE10 */
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+    /* Create four equal columns that sits next to each other */
+    
+    .column {
+        -ms-flex: 25%;
+        /* IE10 */
+        flex: 25%;
+        max-width: 25%;
+        padding: 0 4px;
+    }
+    
+    .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+    }
+    /* Responsive layout - makes a two column-layout instead of four columns */
+    
+    @media screen and (max-width: 800px) {
+        .column {
+            -ms-flex: 50%;
+            flex: 50%;
+            max-width: 50%;
+        }
+    }
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    
+    @media screen and (max-width: 600px) {
+        .column {
+            -ms-flex: 100%;
+            flex: 100%;
+            max-width: 100%;
+        }
+    }
+</style>
+
+<body>
+    <header>
+        <div class="jumbotron">
+            <h1>Cutie Hamster</h1>
+            <p>Learn About Hamster and Their Breeds :)</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Index.html">About Hamster</a></li>
+                <li><a href="breeds.html">Hamster Breeds</a></li>
+                <li><a href="hamster food.html">Hamster Food</a></li>
+                <li><a href="hamster gallery.html">Hamster Gallery</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <!-- Header -->
+    <div class="header">
+        <h1>Here Are Some Cute Picture Of Hamsters</h1>
+        <p>Enjoy!</p>
+    </div>
+
+    <!-- Photo Grid -->
+    <div class="row">
+        <div class="column">
+            <img src="https://c4.wallpaperflare.com/wallpaper/273/300/984/hamster-wallpaper-preview.jpg" style="width:100%">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfVXsEx1jaxTI0v4pYzPB9WeYmtmG8awqd4w&usqp=CAU" style="width:100%">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOG4BPV3jHLgv2rjegVdvdQmSa0b0359JZWQ&usqp=CAU" style="width:100%">
+            <img src="https://wallpaperaccess.com/full/1646401.jpg" style="width:100%">
+            <img src="https://cdn.wallpapersafari.com/86/42/SxyIEo.jpg" style="width:100%">
+            <img src="https://free4kwallpapers.com/uploads/originals/2015/10/21/hamster-wallpaper.jpg" style="width:100%">
+            <img src="https://w0.peakpx.com/wallpaper/657/309/HD-wallpaper-hamster-with-bow-cute-red-bow-white-hamster.jpg" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="https://images5.alphacoders.com/412/412157.jpg" style="width:100%">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyscxdEL17Lfs4Z3eWYA14ehpCXaq74FLUKg&usqp=CAU" style="width:100%">
+            <img src="https://w0.peakpx.com/wallpaper/310/346/HD-wallpaper-hamster-in-a-car-nature-hamster-car.jpg" style="width:100%">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0Ya6TF2QNL61iDhluRdljxm-aHQaIDt8n-Q&usqp=CAU" style="width:100%">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9gup84HH7cv4Jt-f0CCksedJ1dpVrEEU_YleXyuYvz26PXFcF6zSDonU-yaOOOx3Q9Fw&usqp=CAU" style="width:100%">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThdwIKsCV5uhuhx6GEe3Rlb04ilIbW6lfzag&usqp=CAU" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="https://img.freepik.com/premium-photo/syrian-hamster-shopping-cart-brown-background_153325-340.jpg" style="width:100%">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStjdaxHTzs-A02V0Cb19GEqcpS_pbFK8CA1UuJ1bk1L12HTmwdHg-GlIgM84REVXiXIUo&usqp=CAU" style="width:100%">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA1FQ87OX7ICskZkbFr8EfVfSu6XFNAWCXfQ&usqp=CAU" style="width:100%">
+            <img src="https://play-lh.googleusercontent.com/sWWXhm9G3TY91BCjUoRrzLuGvdgVbkinUthfi2MpC1R3xQVWxe-Jri2LKPXbHGT0pg" style="width:100%">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaj5mDKGv80-3Ob1z6xv8Vm5XFfJY1mxDHEiFIHdc5hMs3OXvR_tz9N_hxIHJYqbuFBI4&usqp=CAU" style="width:100%">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjmOm4SXbviFvpcUnCHAScaI85de7P0pwRVw&usqp=CAU" style="width:100%">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgsc66vvh9ik6Qk6LhZx0-64-rg4A-iTy4AA&usqp=CAU" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPnLvPVwE9bXgN5RUZDiT2c8KlzFipu8xIAw&usqp=CAU" style="width:100%">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpuUhjQX4UgY99EpCPXHAKSGO_oiUY1wVAAmrNxN6KR2jcbiXYn6CLhvuh8ATPmx3jVH0&usqp=CAU" style="width:100%">
+            <img src="https://media.istockphoto.com/photos/hamster-and-rabbit-sitting-side-by-side-animal-friendship-concept-picture-id1353816537?b=1&k=20&m=1353816537&s=170667a&w=0&h=g9rUeT5bRghM68UJNh4hPcvRo6acC1d_Mq8IE5-Swjk=" style="width:100%">
+            <img src="https://media.istockphoto.com/photos/my-hamster-picture-id157168449?k=20&m=157168449&s=170667a&w=0&h=WH6WZamyhLh3SZsBr9heRelgpx7ecYI7ZBnQyKaZOOI=" style="width:100%">
+            <img src="https://wallpapertag.com/wallpaper/middle/1/2/2/594285-cute-hamster-wallpaper-2560x1707-ipad-retina.jpg" style="width:100%">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2IbgtVXoqAj9T7oEA0Nz5KsAH0KReUcH0tUhhMDfPZf7HperDbKtvyiWU5CyMjeRq7Po&usqp=CAU" style="width:100%">
+        </div>
+    </div>
+    <br>
+    <br>
+    <footer class="footer">
+        <div class="container text-center"><span class="text-muted"><b>Copyright&copy;Cutie Hamster 2022</b></span></div>
+    </footer>
+</body>
+
+</html>
